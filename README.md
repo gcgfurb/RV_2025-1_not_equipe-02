@@ -1,25 +1,21 @@
-# Unidade 1
+# Realidade Virtual
 
-Local para postar a atividade da unidade 1.  
+Atividades desenvolvidas na disciplina de Realidade Virtual na FURB/DSC/BCC.  
+Favor utilizar as respectivas pastas para postar os trabalhos de cada unidade.  
 
-## Avaliação
+Alunos:  
 
-### Trabalho: Fulldive VR
+Kelvin Fernando Silva Leite  
+Luana Caroline Schmidt  
+Mateus Henrique Maas  
+Thiago Vogt da Silva  
 
-Video1 que mostra alguns recursos de cena.  
-Video2
-  linha vertical na tela  
-  curso de tela  
-  Duas telas: estereoscópico
-  não tinha o óculos ... pode rodar sem o óculos: pegar o oculos com prof.  
+Assunto:  
 
-### Trabalho: Inmind VR
+## [Atividades da Unidade 1](unidade_1 "Atividades da Unidade 1")  
 
-"Vidiozinho" -> TCC  
-Jogo em 2015
-Caminhamento forçado (pessoa não vê o mundo real)  
+## [Atividades da Unidade 2](unidade_2 "Atividades da Unidade 2")  
 
-### Trabalho: Mineforge VR
+## [Atividades da Unidade 3](unidade_3 "Atividades da Unidade 3")  
 
-iPhone 11, pouco travado ... não deveria  
-Joguei o Minecraft no Quest  
+## [Atividades da Unidade 4](unidade_4 "Atividades da Unidade 4")  

@@ -1,28 +1,25 @@
 # Unidade 1
 
 Local para postar a atividade da unidade 1.  
-Link dos slides: https://www.canva.com/design/DAGhXzKJOZs/PPKP_-DmJGkE0o_08m1BNg/view?utm_content=DAGhXzKJOZs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8b60b5db3a
-
 
 ## Avaliação
 
-### Trabalho Correlato 1
+### Trabalho: Fulldive VR
 
-Acadêmico:  
-Comentários:  
+Video1 que mostra alguns recursos de cena.  
+Video2
+  linha vertical na tela  
+  curso de tela  
+  Duas telas: estereoscópico
+  não tinha o óculos ... pode rodar sem o óculos: pegar o oculos com prof.  
 
--  
+### Trabalho: Inmind VR
 
-### Trabalho Correlato 2
+"Vidiozinho" -> TCC  
+Jogo em 2015
+Caminhamento forçado (pessoa não vê o mundo real)  
 
-Acadêmico:  
-Comentários:  
+### Trabalho: Mineforge VR
 
--  
-
-### Trabalho Correlato 3
-
-Acadêmico:  
-Comentários:  
-
--  
+iPhone 11, pouco travado ... não deveria  
+Joguei o Minecraft no Quest  
