@@ -41,18 +41,20 @@ public class Parede : MonoBehaviour
 
             if (filhos.Count == filhosOrdenados.Count)
             {
-                foreach (Transform filho in transform)
+                gameObject.SetActive(false);
+                if (transform.parent != null)
                 {
-                    ObjectController comp = filho.GetComponent<ObjectController>();
-                    comp.Visible = true;
-                    comp.gameObject.SetActive(true);
+                    transform.parent.gameObject.SetActive(false);
                 }
             }
 
-            gameObject.SetActive(false);
-            if (transform.parent != null)
+        }
+        else {
+            foreach (Transform filho in transform)
             {
-                transform.parent.gameObject.SetActive(false);
+                ObjectController comp = filho.GetComponent<ObjectController>();
+                comp.Visible = true;
+                comp.gameObject.SetActive(true);
             }
         }
         
