@@ -10552,7 +10552,7 @@ GameObject:
   - component: {fileID: 289437933}
   - component: {fileID: 289437932}
   m_Layer: 3
-  m_Name: Icosahedron (5)
+  m_Name: 4Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11178,7 +11178,7 @@ GameObject:
   - component: {fileID: 302709228}
   - component: {fileID: 302709227}
   m_Layer: 3
-  m_Name: Icosahedron (3)
+  m_Name: 2Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17784,6 +17784,133 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1145034216}
   m_LocalEulerAnglesHint: {x: 0, y: 42.816, z: 0}
+--- !u!1 &554409104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 554409105}
+  - component: {fileID: 554409109}
+  - component: {fileID: 554409108}
+  - component: {fileID: 554409107}
+  - component: {fileID: 554409106}
+  m_Layer: 3
+  m_Name: 3Icosahedron
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &554409105
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554409104}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: -0.00000008429369}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
+  m_LocalScale: {x: 0.78258854, y: 0.78258854, z: 0.78258854}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2079810918}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.04, y: -0.37}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &554409106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554409104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb0fad8e3b2754aaeb18724ea18d2a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InactiveMaterial: {fileID: 2100000, guid: d273276aed64642deac3f52504ab44eb, type: 2}
+  GazedAtMaterial: {fileID: 2100000, guid: e569b4a1fb5d044619efe1abc174c85f, type: 2}
+--- !u!135 &554409107
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554409104}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &554409108
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554409104}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d273276aed64642deac3f52504ab44eb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &554409109
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554409104}
+  m_Mesh: {fileID: 6514107718429006784, guid: ae120d8251d1948cc9349cf3ff881336, type: 3}
 --- !u!1 &559680418
 GameObject:
   m_ObjectHideFlags: 0
@@ -23737,7 +23864,7 @@ GameObject:
   - component: {fileID: 755126682}
   - component: {fileID: 755126681}
   m_Layer: 3
-  m_Name: Icosahedron
+  m_Name: 1Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28593,7 +28720,7 @@ GameObject:
   - component: {fileID: 901983974}
   - component: {fileID: 901983973}
   m_Layer: 3
-  m_Name: Icosahedron
+  m_Name: 2Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29132,7 +29259,7 @@ GameObject:
   - component: {fileID: 930681103}
   - component: {fileID: 930681102}
   m_Layer: 3
-  m_Name: Icosahedron (3)
+  m_Name: 3Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33805,7 +33932,7 @@ GameObject:
   - component: {fileID: 1071253559}
   - component: {fileID: 1071253558}
   m_Layer: 3
-  m_Name: Icosahedron (2)
+  m_Name: 4Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36458,7 +36585,7 @@ GameObject:
   - component: {fileID: 1153802647}
   - component: {fileID: 1153802646}
   m_Layer: 3
-  m_Name: Icosahedron (1)
+  m_Name: 2Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40453,7 +40580,7 @@ GameObject:
   - component: {fileID: 1273549650}
   - component: {fileID: 1273549649}
   m_Layer: 3
-  m_Name: Icosahedron (2)
+  m_Name: 3Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41440,7 +41567,7 @@ GameObject:
   - component: {fileID: 1304996966}
   - component: {fileID: 1304996965}
   m_Layer: 3
-  m_Name: Icosahedron
+  m_Name: 4Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41685,7 +41812,7 @@ GameObject:
   - component: {fileID: 1312098101}
   - component: {fileID: 1312098100}
   m_Layer: 3
-  m_Name: Icosahedron
+  m_Name: 1Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41707,7 +41834,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.54, y: 1.43}
+  m_AnchoredPosition: {x: -1.48, y: 1.43}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1312098100
@@ -44154,7 +44281,7 @@ GameObject:
   - component: {fileID: 1399260530}
   - component: {fileID: 1399260529}
   m_Layer: 3
-  m_Name: Icosahedron (3)
+  m_Name: 2Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46567,7 +46694,7 @@ GameObject:
   - component: {fileID: 1450887005}
   - component: {fileID: 1450887004}
   m_Layer: 3
-  m_Name: Icosahedron
+  m_Name: 2Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48212,7 +48339,7 @@ GameObject:
   - component: {fileID: 1479056425}
   - component: {fileID: 1479056424}
   m_Layer: 3
-  m_Name: Icosahedron (1)
+  m_Name: 2Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49906,7 +50033,7 @@ GameObject:
   - component: {fileID: 1537050207}
   - component: {fileID: 1537050206}
   m_Layer: 3
-  m_Name: Icosahedron (4)
+  m_Name: 3Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49928,7 +50055,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.06, y: 1.5}
+  m_AnchoredPosition: {x: 0.05, y: 1.49}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1537050206
@@ -50595,7 +50722,7 @@ GameObject:
   - component: {fileID: 1554031463}
   - component: {fileID: 1554031462}
   m_Layer: 3
-  m_Name: Icosahedron (2)
+  m_Name: 5Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59265,7 +59392,7 @@ GameObject:
   - component: {fileID: 1843701285}
   - component: {fileID: 1843701284}
   m_Layer: 3
-  m_Name: Icosahedron (1)
+  m_Name: 1Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60438,7 +60565,7 @@ GameObject:
   - component: {fileID: 1920582997}
   - component: {fileID: 1920582996}
   m_Layer: 3
-  m_Name: Icosahedron (2)
+  m_Name: 3Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61150,7 +61277,7 @@ GameObject:
   - component: {fileID: 1949302904}
   - component: {fileID: 1949302903}
   m_Layer: 3
-  m_Name: Icosahedron
+  m_Name: 1Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62141,7 +62268,7 @@ GameObject:
   - component: {fileID: 1991622286}
   - component: {fileID: 1991622285}
   m_Layer: 3
-  m_Name: Icosahedron (1)
+  m_Name: 1Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65832,19 +65959,20 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2079810917}
   m_LocalRotation: {x: 0.7071068, y: 3.5527137e-15, z: 3.5527137e-15, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: -1.23}
+  m_LocalPosition: {x: 0, y: 0, z: -0.84}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1991622284}
   - {fileID: 901983972}
   - {fileID: 2103333597}
+  - {fileID: 554409105}
   - {fileID: 2107509283}
   m_Father: {fileID: 372666403}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.84, y: 0.38}
+  m_AnchoredPosition: {x: -0.88, y: 0.38}
   m_SizeDelta: {x: 13.606, y: 4.8623}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2079810919
@@ -67578,7 +67706,7 @@ GameObject:
   - component: {fileID: 2103333599}
   - component: {fileID: 2103333598}
   m_Layer: 3
-  m_Name: Icosahedron (2)
+  m_Name: 4Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67814,7 +67942,7 @@ GameObject:
   - component: {fileID: 2107509285}
   - component: {fileID: 2107509284}
   m_Layer: 3
-  m_Name: Icosahedron (3)
+  m_Name: 5Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68692,7 +68820,7 @@ GameObject:
   - component: {fileID: 2139489097}
   - component: {fileID: 2139489096}
   m_Layer: 3
-  m_Name: Icosahedron (3)
+  m_Name: 1Icosahedron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
