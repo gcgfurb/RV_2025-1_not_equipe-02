@@ -13,6 +13,9 @@ using UnityEngine;
 public class ObjectController : MonoBehaviour
 
 {
+    public bool Visible { get; set; } = true;
+
+    public int Index { get; set; } = -1;
 
     /// <summary>
 
@@ -83,7 +86,6 @@ public class ObjectController : MonoBehaviour
     /// </summary>
 
     public void TeleportRandomly()
-
     {
 
         // Picks a random sibling, activates it and deactivates itself.
@@ -139,6 +141,7 @@ public class ObjectController : MonoBehaviour
     {
 
         gameObject.SetActive(false);
+        Visible = false;
 
     }
 
