@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 
 public class Parede : MonoBehaviour
 {
@@ -41,11 +42,21 @@ public class Parede : MonoBehaviour
 
             if (filhos.Count == filhosOrdenados.Count)
             {
-                gameObject.SetActive(false);
+                Camera mainCam = Camera.main;
+                if (mainCam != null)
+                {
+                    Vector3 pos = mainCam.transform.parent.position;
+                    Debug.Log($"esperado:{pos}");
+                    pos.z -= 5;
+                    mainCam.transform.parent.position = pos;
+                }
+
                 if (transform.parent != null)
                 {
                     transform.parent.gameObject.SetActive(false);
                 }
+
+                gameObject.SetActive(false);
             }
 
         }
